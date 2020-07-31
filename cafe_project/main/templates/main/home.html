@@ -1,0 +1,23 @@
+{%  extends 'layout/layout.html' %}
+{%  load static %}
+{%  block content %}
+<section>
+    <div class="jumbotron" style="text-align: center;">
+        
+        <h1 class="display-4">&hearts;선&hearts;사&hearts;모&hearts;</h1>
+        <p class="lead">
+        저희는 선우를 사랑하는 모임으로서 매주 화요일, 금요일 정기모임이 있습니다. </p>
+        <hr class="my-4">
+        <h3 style="color: red;">드디어 모였습니다~!</h3><br>
+        <h4>등업 조건은 선우와 관련된 문제를 모두 맞추는 것 입니다.</h4>
+        <h4>그럼 문제 나갑니다~!~!</h4>
+        <br>
+        <h6>1.선우가 잘하는 게임은? ㅇㅇㅇㅇㅇ ** @@@ (난이도 하) </h6>
+        <h6>2.선우가 자주 사용하는 아이디이자 별명은? (난이도 중)</h6>
+        <h6>3.영빈이 일기와 선우의 관계성은? (난이도 최상)</h6>
+        <h6>→ 3번 문제만 맞춰도 등업 쌉★파서블 </h6><br>
+        <a class="btn btn-primary btn-lg" href="{% url 'board_create' %}" role="button">New post</a>
+      
+      </div>
+</section> 
+{% endblock %}
